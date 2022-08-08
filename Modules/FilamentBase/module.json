@@ -1,0 +1,15 @@
+{
+  "name": "FilamentBase",
+  "alias": "filamentbase",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": [
+    "Modules\\FilamentBase\\Providers\\FilamentBaseServiceProvider"
+  ],
+  "aliases": {},
+  "files": [
+    "Helpers/helpers.php"
+  ],
+  "requires": []
+}

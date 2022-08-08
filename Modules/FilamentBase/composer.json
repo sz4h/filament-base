@@ -1,0 +1,30 @@
+{
+  "name": "nwidart/filamentbase",
+  "description": "",
+  "authors": [
+    {
+      "name": "Nicolas Widart",
+      "email": "n.widart@gmail.com"
+    }
+  ],
+  "require": {
+    "althinect/filament-spatie-roles-permissions": "^1.0",
+    "filament/filament": "^2.0",
+    "filament/spatie-laravel-translatable-plugin": "^2.0"
+  },
+  "require-dev": {
+    "barryvdh/laravel-debugbar": "^3.7"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\FilamentBase\\": ""
+    }
+  }
+}
